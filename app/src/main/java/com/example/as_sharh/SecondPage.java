@@ -32,7 +32,7 @@ public class SecondPage extends AppCompatActivity {
     }
 
     public void Intent(View view) {
-//        Intent intent = new Intent(Read.this,SecondPage.class);
-//        startActivity(intent);
+        Intent intent = new Intent(SecondPage.this,ThirdPage.class);
+        startActivity(intent);
     }
 }
