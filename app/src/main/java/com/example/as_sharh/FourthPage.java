@@ -16,7 +16,7 @@ public class FourthPage extends AppCompatActivity {
     }
 
     public void Intent(View view) {
-        Intent intent = new Intent(FourthPage.this,SecondPage.class);
+        Intent intent = new Intent(FourthPage.this,FifthPage.class);
         startActivity(intent);
     }
 
