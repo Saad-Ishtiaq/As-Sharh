@@ -2,6 +2,7 @@ package com.example.as_sharh;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -27,5 +28,10 @@ public class Read extends AppCompatActivity {
     public void Ayah1(View view) {
         mp.pause();
         mp1.start();
+    }
+
+    public void Intent(View view) {
+        Intent intent = new Intent(Read.this,SecondPage.class);
+        startActivity(intent);
     }
 }

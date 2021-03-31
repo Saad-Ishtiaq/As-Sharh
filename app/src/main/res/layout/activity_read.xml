@@ -75,5 +75,21 @@
         app:layout_constraintTop_toBottomOf="@+id/ayah1"
         app:srcCompat="@drawable/aya1t" />
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="56dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="44dp"
+
+        android:onClick="Intent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/next" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
