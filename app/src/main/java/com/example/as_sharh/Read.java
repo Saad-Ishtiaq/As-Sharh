@@ -26,7 +26,6 @@ public class Read extends AppCompatActivity {
     }
 
     public void Ayah1(View view) {
-        mp.pause();
         mp1.start();
     }
 
