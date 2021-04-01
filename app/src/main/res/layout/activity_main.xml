@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
 
 
-    android:background="@drawable/background"
+    android:background="@drawable/back"
     >
 
     <TextView
@@ -24,54 +24,45 @@
         app:layout_constraintVertical_bias="0.445" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="98dp"
-        android:layout_height="85dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.194"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.528"
-        app:srcCompat="@drawable/quran" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="116dp"
-        android:layout_height="171dp"
-        android:layout_marginBottom="472dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/lights" />
-
-    <ImageView
         android:id="@+id/imageView6"
         android:layout_width="216dp"
         android:layout_height="189dp"
-        android:layout_marginTop="224dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436"
         app:srcCompat="@drawable/design" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="12dp"
+
         android:onClick="Intent"
-
         android:text="پڑھیں"
-
         android:textSize="18sp"
         app:backgroundTint="#006064"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.621"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.318" />
+        app:layout_constraintVertical_bias="0.28" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="101dp"
+        android:layout_height="48dp"
+        android:onClick="TalawatPage"
+        android:text="تلاوت"
+        android:textSize="18sp"
+        app:backgroundTint="#006064"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

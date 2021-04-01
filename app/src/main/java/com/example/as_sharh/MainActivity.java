@@ -15,8 +15,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Intent(View view) {
-        Intent intent= new Intent(MainActivity.this,Read.class);
-        startActivity(intent);
+        Intent intent1= new Intent(MainActivity.this,Read.class);
+        startActivity(intent1);
 
     }
+
+    public void TalawatPage(View view) {
+        Intent intent2= new Intent(MainActivity.this,Talawat.class);
+        startActivity(intent2);
+    }
+
+
 }

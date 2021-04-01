@@ -9,23 +9,25 @@ import android.view.View;
 
 public class Read extends AppCompatActivity {
 
-    MediaPlayer mp;
-    MediaPlayer mp1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_read);
-        mp= MediaPlayer.create(this,R.raw.bismillah);
-        mp1= MediaPlayer.create(this,R.raw.ayah1);
 
     }
 
     public void Bismillah(View view) {
+
+        MediaPlayer mp;
+        mp= MediaPlayer.create(this,R.raw.bismillah);
         mp.start();
     }
 
-    public void Ayah1(View view) {
+    public void Ayah1(View view)
+    {
+        MediaPlayer mp1;
+        mp1= MediaPlayer.create(this,R.raw.ayah1);
         mp1.start();
     }
 

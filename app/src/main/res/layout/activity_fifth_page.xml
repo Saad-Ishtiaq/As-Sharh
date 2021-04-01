@@ -4,6 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FifthPage">
+    tools:context=".FifthPage"
 
+    android:background="@drawable/pagedesign"
+
+
+    >
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="﴿8﴾ وَاِلٰى رَبِّكَ فَارۡغَب"
+
+        android:onClick="Ayah8"
+
+        android:textColor="#1A237E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="164dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/aya8t" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="273dp"
+        android:layout_height="62dp"
+        android:text="ترجمہ : اور اپنے پروردگار کی طرف متوجہ ہو جایا کرو  "
+        android:textColor="#004D40"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="68dp"
+        android:layout_height="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+
+        android:onClick="Home"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.788"
+        app:srcCompat="@drawable/home" />
 </androidx.constraintlayout.widget.ConstraintLayout>
